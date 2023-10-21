@@ -58,6 +58,8 @@ jobs:
           df
           echo Check the env
           env
+          echo Which user is running this?
+          whoami
           
           
           
