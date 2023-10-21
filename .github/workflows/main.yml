@@ -48,6 +48,19 @@ jobs:
           git --version
           echo Is mvn version?
           mvn --version
+          echo Is Gradle version?
+          gradle --version
+          echo Is ant version?
+          ant -version
+          echo What is the runner workspace?
+          echo $RUNNER_WORKSPACE
+          echo Check the disk?
+          df
+          echo Check the env
+          env
+          
+          
+          
           
           
           
